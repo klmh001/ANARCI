@@ -1,11 +1,10 @@
-This is a fork from oxpig/ANARCI.
+This is a fork from oxpig/ANARCI. 
+
 This fork modifies a few files to add support for Windows 10.
 
-To install on Windows 10:
+Thanks oxpig for sharing such good tools.
 
-Install muscle and hmmer windows versions, and add them in PATH.
-
-conda install Biopython
-
-python setup.py install
-
+The following steps worked on Windows 10 and anaconda3:
+1. Install muscle and hmmer Windows executables, and add them in PATH.
+2. conda install Biopython
+3. python setup.py install
