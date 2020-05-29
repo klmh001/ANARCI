@@ -1,4 +1,4 @@
-This is a fork from oxpig/ANARCI. 
+This is a fork from oxpig/ANARCI python3 version. 
 
 This fork modifies a few files to add support for Windows 10.
 
