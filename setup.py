@@ -55,8 +55,8 @@ print('Downloading germlines from IMGT and building HMMs...')
 proc = subprocess.Popen(["bash", "RUN_pipeline.sh"], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
 o, e = proc.communicate()
 
-print(o.decode())
-print(e.decode())
+print(o)
+print(e)
 
 shutil.copy( "curated_alignments/germlines.py", ANARCI_LOC )
 shutil.copytree( "HMMs", os.path.join(ANARCI_LOC, "dat/HMMs/") )
